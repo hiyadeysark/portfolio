@@ -82,6 +82,7 @@ p {
 
 section {
 	position: relative;
+	margin-bottom: 30px;
 }
 .page-loader {
 	position: fixed;
@@ -1160,6 +1161,7 @@ p.subtitle {
 	position: relative;
 	width: 100%;
 	padding: 45px 0;
+	margin-bottom: 50px;
   }
 
 .about .about-img {
@@ -1175,6 +1177,7 @@ p.subtitle {
 	height: 300px;
 	object-fit: cover;
 }
+
 
 @media (max-width: 767.98px) {
 	.about .about-img img{
@@ -1199,11 +1202,15 @@ p.subtitle {
 }
 
 .about p {
-	font-size: 25px;
-	margin-top: 40px;
+	font-size: 20px;
+	margin-top: 10px;
   }
   
-
+.about a{
+	margin-top: 20px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
 .skills img{
 	margin: 2rem;
 	width: 100px;
@@ -1363,6 +1370,7 @@ rush */
 	border-radius: 0;
 	transition: 0.3s;
 	margin-top: 20px;
+	margin-left: 45px;
   }
   
   .streebtn:hover {
@@ -1372,4 +1380,58 @@ rush */
   
   .streebtn:first-child {
 	margin-right: 10px;
+  }
+
+  .devicon-c-plain {
+	font-size: 7rem
+  }
+
+  .devicon-cplusplus-plain {
+	font-size: 7rem
+  }
+
+  .devicon-html5-plain {
+	font-size: 7rem
+  }
+
+  .devicon-css3-plain {
+	font-size: 7rem
+  }
+
+  .devicon-javascript-plain {
+	font-size: 7rem
+  }
+
+  .devicon-react-original {
+	font-size: 7rem
+  }
+
+  .devicon-firebase-plain {
+	font-size: 7rem
+  }
+
+  .devicon-dart-plain {
+	font-size: 7rem
+  }
+
+  .devicon-flutter-plain {
+	font-size: 7rem
+  }
+
+  .devicon-git-plain {
+	font-size: 7rem
+  }
+
+  .devicon-illustrator-plain {
+	font-size: 7rem
+  }
+
+  .devicon-premierepro-plain {
+	font-size: 7rem
+  }
+
+  .proj-img img{
+	  height: 200px;
+	  width: 450px;
+	  position: relative;
   }
